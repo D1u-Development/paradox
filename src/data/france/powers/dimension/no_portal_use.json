@@ -1,0 +1,28 @@
+{
+	"name": "No Portals",
+	"hidden": true,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "france:hell"
+	},
+	"type": "origins:phasing",
+	"block_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:block",
+				"block": "minecraft:end_gateway"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:end_portal"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:nether_portal"
+			}
+		]
+	},
+	"render_type": "none",
+	"view_distance": 10
+}

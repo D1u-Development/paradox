@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"name": "paradox-prison",
+		"id": "france",
+		"pack_format": 48,
+		"version": "3.0.0",
+		"authors": [
+			"MotherStarry",
+			"JoshieGemFinder",
+			"_D1u",
+			"wreckdev"
+		],
+		"description": ""
+	}
+}

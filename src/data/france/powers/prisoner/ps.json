@@ -1,0 +1,9 @@
+{
+	"name": "Prison Spawn",
+	"hidden": true,
+	"type": "origins:modify_player_spawn",
+	"dimension": "france:hell",
+	"biome": "france:hell",
+	"spawn_strategy": "center",
+	"dimension_distance_multiplier": 1
+}

@@ -1,0 +1,3 @@
+$tellraw @s {"type": "translatable", "translate": "paradox.commands.send_to_prison.deferred", "fallback": "Sending %1$s to prison deferred until a matching player logs on", "with": [{"type": "text", "text": "$(Player)"}]}
+
+$execute unless data storage paradox:paradox Deferred.SendToPrison[{Player: "$(Player)"}] run data modify storage paradox:paradox Deferred.SendToPrison append value {Player: "$(Player)"}

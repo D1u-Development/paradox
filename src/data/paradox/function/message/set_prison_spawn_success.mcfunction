@@ -1,0 +1,2 @@
+
+tellraw @s {"type": "translatable", "translate": "paradox.commands.set_world_spawn.success", "fallback": "Successfully set prison spawn to %1$s, %2$s, %3$s", "with": [{"type": "score", "score": {"name": "#spawn", "objective": "paradox.originalX"}, "color": "gold"}, {"type": "score", "score": {"name": "#spawn", "objective": "paradox.originalY"}, "color": "gold"}, {"type": "score", "score": {"name": "#spawn", "objective": "paradox.originalZ"}, "color": "gold"}]}

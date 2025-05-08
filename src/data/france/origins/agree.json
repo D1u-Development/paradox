@@ -1,0 +1,11 @@
+{
+	"name": "§l§bWelcome!",
+	"description": "Note to future editors: set auto_choose in status.json to false once origins mod makes priority working again -Lily\n§bWelcome to §r§e§lD1U MC!\n§r§bWe suggest you join our §9§ldiscord server§r§b and read our rules.\n§r§l§cIf you continue you are agreeing to our rules!",
+	"powers": [
+		"france:agree/a"
+	],
+	"icon": {
+		"id": "origins:orb_of_origin"
+	},
+	"impact": 0
+}

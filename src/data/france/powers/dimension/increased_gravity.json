@@ -1,0 +1,10 @@
+{
+	"hidden": true,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "france:hell"
+	},
+	"type": "origins:modify_falling",
+	"velocity": 0.4,
+	"take_fall_damage": true
+}

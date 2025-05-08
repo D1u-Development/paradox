@@ -1,0 +1,33 @@
+{
+	"name": "GET THE FUCK BACK IN PRISON BITCH",
+	"description":"replaced by the die power",
+	"hidden": true,
+	"condition": {
+		"inverted": true,
+		"type": "origins:dimension",
+		"dimension": "france:hell"
+	},
+	"type": "origins:action_over_time",
+	"interval": 30,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "function paradox:teleport_to_prison"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/title @s actionbar [\"\",{\"text\":\"Welcome back in \",\"color\":\"red\"},{\"text\":\"The Paradox\",\"color\":\"dark_red\",\"bold\":true}]"
+			},
+			{
+				"type": "origins:delay",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/title @s actionbar [\"\",{\"text\":\":3\",\"bold\":true,\"color\":\"#b00bff\"}]"
+				},
+				"ticks": 200
+			}
+		]
+	}
+}

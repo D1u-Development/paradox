@@ -1,0 +1,19 @@
+{
+	"hidden": true,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "france:hell"
+	},
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "fall"
+	},
+	"modifier": {
+		"operation": "set_base",
+		"amount": 2
+	},
+	"self_action": {
+		"type": "origins:nothing"
+	}
+}

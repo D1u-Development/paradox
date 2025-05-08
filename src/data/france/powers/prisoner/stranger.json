@@ -1,0 +1,713 @@
+{
+	"name": "Hi there ;3",
+	"description": "You are never alone.",
+	"type": "origins:action_over_time",
+	"interval": 3000,
+	"entity_action": {
+		"type": "origins:choice",
+		"actions": [
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Are you still there?\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Can you see it?\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> I'm behind you.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Watch out.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> It's following you.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> It can see you.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> You don't belong here.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Start running.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> It's dangerous to be alone here.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Did it happen?\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> It's sad you can't see me.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> You are stuck with me ;)\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Your friends won't find you.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> There's more of us.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> You are not welcome here.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> You are disgusting.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Watching you die brings me joy.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Your skin feels warm.\",\"color\":\"white\"}]"
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.vex.charge",
+							"volume": 1,
+							"pitch": 0.7
+						},
+						{
+							"type": "origins:apply_effect",
+							"effects": [
+								{
+									"id": "minecraft:darkness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								},
+								{
+									"id": "minecraft:blindness",
+									"duration": 60,
+									"amplifier": 10,
+									"ambient": true,
+									"show_particles": false,
+									"show_icon": false
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}

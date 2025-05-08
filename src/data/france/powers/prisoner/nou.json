@@ -1,0 +1,11 @@
+{
+	"name": "no orb use",
+	"hidden": true,
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "origins:orb_of_origin"
+		}
+	}
+}

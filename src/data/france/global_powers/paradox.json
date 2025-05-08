@@ -1,0 +1,17 @@
+{
+	"entity_types": [
+		"minecraft:player"
+	],
+	"powers": [
+		"france:dimension/hidden_deepslate_ores",
+		"france:dimension/hidden_stone_ores",
+		"france:dimension/increased_fall_damage",
+		"france:dimension/increased_gravity",
+		"france:dimension/no_elytra",
+		"france:dimension/no_lava_movement",
+		"france:dimension/no_portal_use",
+		"france:dimension/no_sleep",
+		"france:dimension/reduced_healing",
+		"france:dimension/reduced_sprinting"
+	]
+}

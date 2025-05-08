@@ -1,0 +1,48 @@
+{
+	"type": "france:ovo",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "minecraft:overworld",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "france:hell",
+					"parameters": {
+						"temperature": -0.3,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "france:soulfields",
+					"parameters": {
+						"temperature": 0.969,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "france:torment",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0.4,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				}
+			]
+		}
+	}
+}

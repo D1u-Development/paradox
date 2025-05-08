@@ -1,0 +1,80 @@
+# ==== Public Functions ====
+
+
+# Lets people begin a visit to paradox
+# Not available to prisoners or people who are already visiting
+/trigger paradox.beginVisit
+
+# Lets people end a visit to paradox
+# Not available to prisoners or people who aren't currently visiting
+/trigger paradox.endVisit
+
+# Lets people see their status (e.g. whether or not they are a prisoner, what their sentence is if they are)
+/trigger paradox.info
+
+
+
+
+# ====== Admin Functions ======
+
+# ==== Prisoner Management ====
+
+# Sends a player to prison
+# If neither of the other commands are called, defaults to a permanent sentence
+/function paradox:send_to_prison {Player: "<target username here>"}
+
+# Releases a player from prison early
+/function paradox:release_from_prison {Player: "<target username here>"}
+
+# Sends a player to prison for a specific duration of world time
+# World time passes even when a player is offline
+# Calls paradox:send_to_prison
+/function paradox:send_to_prison_for_worldtime {Player: "<target username here>", Duration: {Days: <number; optional>, Hours: <number; optional>, Minutes: <number; optional>, Seconds: <number; optional>, Ticks: <number; optional>}}
+
+# Sends a player to prison for a specific duration of game time
+# Game time only passes when a player is online
+# Calls paradox:send_to_prison
+/function paradox:send_to_prison_for_gametime {Player: "<target username here>", Duration: {Days: <number; optional>, Hours: <number; optional>, Minutes: <number; optional>, Seconds: <number; optional>, Ticks: <number; optional>}}
+
+# Sends a player to prison for a specific duration of game time & world time
+# Calls paradox:send_to_prison
+/function paradox:send_to_prison_for_time {Player: "<target username here>", PlayTime: {Days: <number; optional>, Hours: <number; optional>, Minutes: <number; optional>, Seconds: <number; optional>, Ticks: <number; optional>}, WorldTime: {Days: <number; optional>, Hours: <number; optional>, Minutes: <number; optional>, Seconds: <number; optional>, Ticks: <number; optional>}}
+
+
+# == Examples ==
+
+# Send "JoshieGemFinder" to prison permanently
+/function paradox:send_to_prison {Player: "JoshieGemFinder"} 
+
+# Send "Stantios" to prison for 1 Day and 1 Hour in real life
+/function paradox:send_to_prison_for_worldtime {Player: "Stantios", Duration: {Days: 1, Hours: 1}} 
+
+# Send "Demidiu" to prison for 3 Day, 4 Hours and 30 Minutes in game time
+/function paradox:send_to_prison_for_gametime {Player: "Demidiu", Duration: {Days: 3, Hours: 4, Minutes: 30}} 
+
+# Send "MotherStarry" to prison for one real-life week, and also require 1 irl day worth of playtime before release
+/function paradox:send_to_prison_for_time {Player: "MotherStarry", PlayTime: {Days: 1}, WorldTime: {Days: 7}}
+
+# Release "Heianwood" from prison early
+/function paradox:release_from_prison {Player: "Heianwood"}
+
+# Note: Durations can also be provided as raw tick values
+# In this example, send "Retc" to prison for 30 irl minutes (36000 ticks is 30 minutes)
+/function paradox:send_to_prison_for_worldtime {Player: "Retc", Duration: 36000}
+
+
+# ==== Teleportation Management ====
+
+# Sets the block players are teleported to when entering prison to your current position
+/function paradox:set_prison_spawn
+
+# Sets the default block players are returned to if they have no original position saved (defaults to vanilla world spawn; does not change vanilla world spawn when called, only prison's default return position)
+/function paradox:set_world_spawn_spawn
+
+
+# Teleport the executing player to prison spawn
+/function paradox:teleport_to_prison
+
+# Teleport the executing player to the default position players are teleported to when returning from prison (only used if the player either hasn't got an original position saved or their original position cannot be teleported to)
+/function paradox:teleport_to_world_spawn
+

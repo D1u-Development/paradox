@@ -1,0 +1,9 @@
+{
+	"entity_types": [
+		"minecraft:player"
+	],
+	"powers": [
+		"france:general/d",
+		"france:general/l"
+	]
+}

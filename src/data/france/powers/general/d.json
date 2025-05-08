@@ -1,0 +1,44 @@
+{
+	"name": "Antiboat",
+	"description": "A funny antidupe made by wreckdev\n\nWell done wreck :3\n-Lily",
+	"hidden": true,
+	"type": "origins:prevent_entity_use",
+	"bientity_action": {
+		"type": "origins:actor_action",
+		"action": {
+			"type": "origins:execute_command",
+			"command": "/title @s actionbar {\"text\":\"You have to be in the boat to use the inventory kid.\"}"
+		}
+	},
+	"bientity_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:entity_type",
+					"entity_type": "minecraft:chest_boat"
+				}
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:target_condition",
+						"condition": {
+							"type": "origins:passenger",
+							"comparison": ">=",
+							"compare_to": 1
+						}
+					},
+					{
+						"type": "origins:actor_condition",
+						"condition": {
+							"type": "origins:sneaking"
+						}
+					}
+				]
+			}
+		]
+	}
+}

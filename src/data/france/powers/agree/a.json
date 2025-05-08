@@ -1,0 +1,11 @@
+{
+	"name": "agreed to rules",
+	"description":"Will change status to free",
+	"hidden": true,
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:execute_command",
+		"command": "origin set @s france:status france:free"
+	},
+	"execute_chosen_when_orb": true
+}

@@ -1,0 +1,12 @@
+{
+	"hidden": true,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "france:hell"
+	},
+	"type": "origins:prevent_elytra_flight",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "/tellraw @s [\"\",{\"text\":\"<\",\"color\":\"white\"},{\"text\":\"[???]\",\"color\":\"gray\"},{\"text\":\" Stranger\",\"color\":\"dark_red\"},{\"text\":\"> Hmm... Maybe you are a penguin now?\",\"color\":\"white\"}]"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "§4§lPrisoner",
+	"description": "§4§lYou are now a prisoner of D1U SMP!",
+	"powers": [
+		"france:prisoner/atp",
+		"france:prisoner/die",
+		"france:prisoner/gtfbipb",
+		"france:prisoner/nou",
+		"france:prisoner/ps",
+		"france:prisoner/stranger"
+	],
+	"icon": {
+		"id": "minecraft:iron_bars"
+	},
+	"unchoosable": true,
+	"impact": 3
+}

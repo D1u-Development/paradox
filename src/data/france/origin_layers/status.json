@@ -1,0 +1,15 @@
+{
+    "origins": [
+        "france:free",
+        "france:agree",
+        "france:prisoner"
+    ],
+    "enabled": true,
+    "loading_priority": -666,
+    "gui_title": {
+        "choose_origin": "Do you agree to our rules?",
+        "view_origin": "§6This is your status"
+    },
+    "auto_choose": true,
+    "default_origin": "france:free"
+}

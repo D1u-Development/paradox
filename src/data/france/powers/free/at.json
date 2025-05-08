@@ -1,0 +1,11 @@
+{
+	"name": "Auto-Team",
+	"description": "Adds all new players to Members if its a vanilla team.",
+	"hidden": true,
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:execute_command",
+		"command": "team join M @s[team= ]"
+	},
+	"execute_chosen_when_orb": true
+}

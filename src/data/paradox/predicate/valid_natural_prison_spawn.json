@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"dimension": "france:hell",
+		"biomes": [
+			"france:hell"
+		],
+		"position": {
+			"y": {"min": 60}
+		}
+	}
+}

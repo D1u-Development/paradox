@@ -1,0 +1,13 @@
+{
+	"name": "Locker",
+	"description": "L + Ratio + idfk",
+	"hidden": true,
+	"condition": {
+		"type": "origins:constant",
+		"value": false
+	},
+	"type": "origins:inventory",
+	"title": "Locker",
+	"container_type": "double_chest",
+	"recoverable": true
+}

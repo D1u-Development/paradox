@@ -1,0 +1,15 @@
+{
+	"name": "Respawn",
+	"description": "Respawn in prison",
+	"hidden": true,
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:execute_command",
+		"command": "function paradox:teleport_to_prison"
+	},
+	"execute_chosen_when_orb": true,
+	"entity_action_respawned": {
+		"type": "origins:execute_command",
+		"command": "function paradox:teleport_to_prison"
+	}
+}

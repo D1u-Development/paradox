@@ -1,0 +1,12 @@
+{
+	"hidden": true,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "france:hell"
+	},
+	"type": "origins:modify_lava_speed",
+	"modifier": {
+		"operation": "set_total",
+		"amount": 0
+	}
+}

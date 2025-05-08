@@ -1,0 +1,66 @@
+{
+	"hidden": true,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:dimension",
+				"dimension": "france:hell"
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "head",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "paradox:reveals_ores"
+					}
+				},
+				"inverted": true
+			}
+		]
+	},
+	"type": "origins:modify_block_render",
+	"block_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:block",
+				"block": "minecraft:coal_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:iron_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:copper_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:gold_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:redstone_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:emerald_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:lapis_ore"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:diamond_ore"
+			},
+			{
+				"type": "origins:in_tag",
+				"tag": "c:ores_in_ground/stone"
+			}
+		]
+	},
+	"block": "minecraft:stone"
+}

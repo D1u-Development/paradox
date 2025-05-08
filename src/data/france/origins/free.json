@@ -1,0 +1,12 @@
+{
+	"name": "§aMember",
+	"description": "§bHave fun playing §r§5§l:3§r\n§l-Staff team",
+	"powers": [
+		"france:free/at"
+	],
+	"icon": {
+		"id": "minecraft:emerald"
+	},
+	"unchoosable": true,
+	"impact": 0
+}
