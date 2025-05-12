@@ -1,2 +1,0 @@
-
-$gamerule spawnRadius $(spawnRadius)

@@ -1,7 +1,6 @@
 
 # Don't do the worldspawn-based prison spawn if we don't know worldspawn
 execute unless score #worldSpawnInitialized paradox.misc matches 1 run return fail
-execute if score #locatingWorldSpawn paradox.misc matches 1 run return fail
 
 # Don't execute if we've already found prison spawn
 execute if score #prisonSpawnInitialized paradox.misc matches 1 run return fail

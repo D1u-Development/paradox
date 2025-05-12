@@ -4,7 +4,6 @@ execute if score #locatingPrisonSpawn paradox.misc matches 1 run return fail
 
 # We can't do worldspawn-based prison spawn if we don't know worldspawn
 execute unless score #worldSpawnInitialized paradox.misc matches 1 run return fail
-execute if score #locatingWorldSpawn paradox.misc matches 1 run return fail
 
 # Flag that we're currently looking for a valid paradox spawn
 scoreboard players set #locatingPrisonSpawn paradox.misc 1
